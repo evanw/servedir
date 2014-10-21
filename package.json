@@ -1,17 +1,12 @@
 {
-  "name": "servedir",
-  "version": "0.2.2",
+  "name": "secure-servedir",
+  "version": "0.2.4",
   "description": "Creates a simple web server for a directory",
-  "homepage": "http://github.com/remy/servedir",
+  "homepage": "http://github.com/evanw/servedir",
   "main": "./lib/servedir",
-  "keywords": ["development", "web", "server", "terminal"],
-  "author": {
-    "name": "Remy Sharp",
-    "web": "http://github.com/remy"
-  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/remy/servedir.git"
+    "url": "git://github.com/evanw/servedir.git"
   },
   "bin": {
     "servedir": "./bin/servedir"
