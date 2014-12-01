@@ -4,7 +4,7 @@ var path = require('path'), fs = require('fs');
 
 function controlArg(args, label, fn) {
   var i;
-  
+
   var callback = function (arg, i) {
     args.splice(i, 1);
     fn(arg, i);
@@ -29,6 +29,10 @@ fs.realpath(__filename, function(error, script) {
 
   controlArg(process.argv, 'external', function () {
     options.allowExternalAccess = true;
+  });
+
+  controlArg(process.argv, 'slow', function () {
+    options.emulateSlowConnection = true;
   });
 
   // Load `servedir`.
