@@ -1,6 +1,6 @@
 {
   "name": "secure-servedir",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Creates a simple web server for a directory",
   "homepage": "http://github.com/evanw/servedir",
   "main": "./lib/servedir",
